@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>stefmmm | Home</title>
+</head>
+<div class="uk-container-expand">
+    <div class="uk-position-relative">
+        <div uk-height-viewport="offset-bottom: 0" class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/moon.jpg" uk-img>
+            <div>
+                <h1 class="text-shadow">Welcome to my website</h1>
+                <div style="text-align: center;" class="uk-margin-medium">
+                    <a class="uk-button uk-button-default uk-border-pill" href="#contact" uk-scroll>Contact Me</a>
+                </div>
+                <div class="uk-position-bottom-center uk-margin-medium">
+                    <a class="uk-icon-button" href="#id-portfolio" uk-scroll uk-icon="chevron-down"></a>
+                </div>
+            </div>
+          </div>
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-light uk-navbar-transparent uk-margin-small-top uk-margin-medium-left uk-margin-medium-right" uk-navbar>
+                <div class="uk-navbar-left uk-margin-small-top">
+                    <ul class="uk-navbar-nav">
+                        <div>
+                            <img src="images/profile.png" width="50" height="50">
+                            <span class="uk-text-middle uk-text-lead uk-text-primary">stefmmm</span>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="id-portfolio" class="uk-section uk-section-secondary uk-preserve-color">
+        <div class="uk-container uk-container-large">
+            <div class="uk-panel uk-light uk-margin-medium">
+                <h3>Portfolio</h3>
+            </div>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 320:161; animation: push; autoplay: true">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="images/mcsspanel.png" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove uk-text-bold">MCSS Panel</h3>
+                            <p class="uk-margin-remove ">A web panel to easily interface with the MC Server Soft API.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/yurucamp.png" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove uk-text-bold">yuru.camp.moe</h3>
+                            <p class="uk-margin-remove ">Yuru CampΔ fan website.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/xcmmedia.png" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove uk-text-bold">Xcm Media</h3>
+                            <p class="uk-margin-remove ">Honestly no clue what this is anymore.</p>
+                        </div>
+                    </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="uk-section uk-section-secondary uk-preserve-color">
+        <div class="uk-container uk-container-large">
+            <div class="uk-panel uk-light uk-margin-medium">
+                <h3>Contact me</h3>
+            </div>
+            <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Discord</h3>
+                        <p>Talk to me on discord.</p>
+                        <p class="uk-text-emphasis">Stefmmm#5275</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Email</h3>
+                        <p>Send me an good ol' fashioned email.</p>
+                        <button class="uk-button uk-button-secondary uk-button-small" uk-toggle="target: #modal-close-default">Compose</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title">Keybase</h3>
+                        <p>The not yet dead encrypted messaging app.</p>
+                        <a class="uk-button uk-button-secondary uk-button-small" href="https://keybase.io/stef123" target="_blank">Keybase profile</a>
+                    </div>
+                </div>
+            </div>
+            <a class="uk-button uk-button-secondary uk-align-center" href="https://keybase.io/stef123/pgp_keys.asc?fingerprint=b442b81dbad5819a1851eeb88b1d92777bd8591b" target="_blank">PGP: B442B81DBAD5819A1851EEB88B1D92777BD8591B</a>
+            <div class="uk-text-center uk-margin-remove">
+                <a class="uk-icon-button uk-margin-medium-top" uk-scroll uk-icon="chevron-up"></a>
+            </div>
+        </div>
+    </div>
+    <!-- This is the modal with the default close button -->
+    <div id="modal-close-default" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h2 class="uk-modal-title">Send an email.</h2>
+            <form method="post" data-netlify="true" data-netlify-recaptcha="true">
+                <fieldset class="uk-fieldset">
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Name">
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Email Address">
+                    </div>
+            
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                    </div>
+                </fieldset>
+                <div data-netlify-recaptcha="true"></div>
+                <button type="submit" class="uk-button uk-button-default">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer class="uk-section uk-section-primary uk-section-small">
+        <div class="uk-container uk-text-white uk-width-medium uk-margin-small-top">
+            <div class="uk-text-center uk-margin-small-top">
+                <p>2021 &#169 stefmmm</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
