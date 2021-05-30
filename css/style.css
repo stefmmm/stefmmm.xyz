@@ -1,6 +1,6 @@
 .uk-section-primary {
 	background: rgb(2,0,36);
-    background: linear-gradient(90deg, #0017e0 0%, #0020f2 48%, #0014dd 100%);
+    background: linear-gradient(90deg, #0848a9 0%, #0848a9 48%, #0848a9 100%);
 }
 
 .uk-section-transparant {
@@ -8,5 +8,5 @@
 }
 
 body {
-    background-color: #0020f2; 
+    background-color: #0848a9; 
 }
