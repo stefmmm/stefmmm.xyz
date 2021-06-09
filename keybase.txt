@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/stef123
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stefmmm.xyz
+  * I am stef123 (https://keybase.io/stef123) on keybase.
+  * I have a public key ASCbCvbprfZXb47CdhjhLtWOQLYRmqUoO3qYxQ0MNLHuYQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209b0af6e9adf6576f8ec27618e12ed58e40b6119aa5283b7a98c50d0c34b1ee610a",
+      "host": "keybase.io",
+      "kid": "01209b0af6e9adf6576f8ec27618e12ed58e40b6119aa5283b7a98c50d0c34b1ee610a",
+      "uid": "a01ed5a2016b9b2b94b13d8111fa4019",
+      "username": "stef123"
+    },
+    "merkle_root": {
+      "ctime": 1623239537,
+      "hash": "a9b8ddecfd6ee9095ce91367c1544c0fd218b5534794cc4fe0c3fa926e4c79e847f001e599fcfd9ccabb1dc97122b0290a07b5df20a4a697d18d56922b922658",
+      "hash_meta": "4f02941b38abd55a8e6cee472f67bad21faa44040caa29bbff1a56e3c6fa5e3a",
+      "seqno": 20146853
+    },
+    "service": {
+      "entropy": "u7JvYazV9h71GqZNSGAjdfvQ",
+      "hostname": "stefmmm.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1623239555,
+  "expire_in": 504576000,
+  "prev": "32e10b87a7befc4c59cedf35e82cb452b10829699a76f2b246f3e77b543577e7",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmwr26a32V2+OwnYY4S7VjkC2EZqlKDt6mMUNDDSx7mEKp3BheWxvYWTESpcCJcQgMuELh6e+/ExZzt816Cy0UrEIKWmadvKyRvPne1Q1d+fEINEVzRxUXyYWNJj2XRIBUMITnkLDh7nBJn9E1Sh1yFt9AgHCo3NpZ8RABW/Kh3y0dwRuBt+FtE3dMb/JyaW/ZvBzqHJQ+brN82bVSKJCCFVaZqy1q6J5kzbmerxvUFNyz5ueAdrFPcrvBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINcXQn2KWCWXY+pdo6FNAPgvGcvK90G55BXTQmXPA49zo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stef123
+
+==================================================================
