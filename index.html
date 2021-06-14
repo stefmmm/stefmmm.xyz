@@ -116,7 +116,7 @@
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <h2 class="uk-modal-title">Send an email.</h2>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
                 <fieldset class="uk-fieldset">
                     <div class="uk-margin">
                         <input class="uk-input" type="text" name="name" placeholder="Name">
@@ -126,6 +126,7 @@
                     </div>
                     <div class="uk-margin">
                         <textarea class="uk-textarea" rows="5" name="message" placeholder="Message"></textarea>
+                        <label>Don't fill this out if you’re human: <input name="bot-field" /></label>
                     </div>
                 </fieldset>
                 <div class="uk-margin-small-bottom" data-netlify-recaptcha="true"></div>
